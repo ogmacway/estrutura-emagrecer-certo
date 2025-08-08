@@ -13,7 +13,7 @@ const Page3 = () => {
       setTimeLeft((prev) => {
         if (prev <= 1) {
           clearInterval(timer);
-          window.location.href = 'https://app.pushinpay.com.br/service/pay/9F7E8C2D-C7F0-439C-8DDB-4BB5FB3D1545';
+          window.location.href = 'https://go.pepperpay.com.br/9vmgi';
           return 0;
         }
         return prev - 1;
